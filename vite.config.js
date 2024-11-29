@@ -113,9 +113,9 @@ export default defineConfig(({ command, mode }) => {
 
     plugins.push(
       sentryVitePlugin({
-        authToken: SENTRY_AUTH_TOKEN,
-        org: SENTRY_ORG,
-        project: SENTRY_PROJECT,
+        // // // // authToken: SENTRY_AUTH_TOKEN,
+        // // // // org: SENTRY_ORG,
+        // // // // project: SENTRY_PROJECT,
       }),
     );
   }
